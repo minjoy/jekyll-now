@@ -27,7 +27,7 @@
 		<div class="row">
 			<span style="position:absolute;width:900px;height:180px;top:200px;margin-left:90px;z-index:90;background:red">
 				<span class="banner_name" >Portfolio of Storyboard, Service</span>
-				<span class="banner_text" >Portfolio of Storyboard, Service</span>
+				<div class="banner_text" >Portfolio of Storyboard, Service</div>
 			</span>
 			<div class="col-md-6" >
 				<span><a href="#">제1메뉴</a></span>
