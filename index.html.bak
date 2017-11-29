@@ -1,10 +1,7 @@
 <div style="width:100%;height:0;padding-top:10%;padding-bottom:10%;background-color:lightgray">
         <div style="color:white;font-size:50px;font-family:맑은고딕;font-style:underline;">
 <<<<<<< HEAD
-          middle banner TEST1, this is the test banner...I wonder if it is work perfectlyaaaa
-=======
-          middle banner TEST1, this is the test banner...I wonder if it is work perfectlycc
->>>>>>> 371d7b0d869b3825a8ddd5709517d926a3e43ba9
+          middle banner TEST1, this is the test banner...I wonder if it is work perfectlyaaaccc
         </div>
         <div style="text-align:center">
         <a href="http://dbdaa.xyz"><input type="image" src="images/404.jpg" style="width:100px;height:100px;" horizontal-align="center">
