@@ -19,8 +19,24 @@
 }
 
 .banner_name{
-	font-size:55px;
+	font-size:45px;
+	color:#3d3d3d;
+	font-family:GodoM;
 }
 .banner_text{
-	font-size:20px;
+	font-size:17px;
+
+}
+.name{
+	font-size:40px;
+}
+
+
+
+
+@import url(http://fonts.googleapis.com/earlyaccess/jejugothic.css); 
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
+@font-face{
+	font-family:'GodoM';
+	src: url(GodoM.ttf) format('truetype');
 }
