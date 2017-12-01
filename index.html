@@ -11,6 +11,7 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <link rel="import" href="top.html">
+<link rel="stylesheet" href="//fonts.googleapis.com/earlyaccess/hanna.css" />
 <style>
 .copyright {color:blue;font-weight:bold;}
 
@@ -32,14 +33,6 @@
     font-size: 24px;
 }
 
-/*세부css*/
-.banner_name{
-	font-size:55px;
-}
-.banner_text{
-	font-size:20px;
-}
-
 
 .copyright {color:blue;font-weight:bold;}
 
@@ -61,23 +54,26 @@
     font-size: 24px;
 }
 
-.banner_name{
-	font-size:45px;
-	color:#3d3d3d;
-	font-family:GodoM;
-}
-.banner_text{
-	font-size:17px;
 
-}
 .name{
 	font-size:40px;
 }
-@import url(http://fonts.googleapis.com/earlyaccess/jejugothic.css); 
-@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
 @font-face{
 	font-family:'GodoM';
-	src: url(GodoM.ttf) format('truetype');
+	src: url(_css/GodoM.ttf) format('truetype');
+}
+.content{
+	font-weight:bold;
+	font-size:15px;
+}
+.banner-name{
+	font-size:45px;
+	color:#3d3d3d;
+	font-family:GodoM, sans-serif;
+}
+.banner-text{
+	font-size:17px;
+
 }
 </style>
 
@@ -96,9 +92,8 @@
 	<div class="container" style="float:center">
 		<div class="row">
 			<span style="position:absolute;width:900px;height:450px;top:200px;margin-left:90px;z-index:90;background:transparent">
-				<span class="banner_name">Portfolio of 강민종의 획기적기획</span>
-				<div class="banner_text" ><br>여기는 기획자 강민종의 획기적인 기획을 수집한 공간입니다.<br>오늘까지의 포트폴리오를 소개합니다.</div>
-				<div class="pull-right" style="margin-top:270px;margin-right:315px;color:#f78489;">COPYRIGHT ⓒ 2017 KANGMINJONG ALL RIGHTS RESERVED.</div>
+				<div class="banner-name">Portfolio of 강민종의 획기적기획</div>
+				<div class="banner-text" ><br>이 페이지는 기획자 강민종의 획기적인 기획을 수집한 공간입니다.<br>오늘까지의 포트폴리오를 소개합니다.</div>
 			</span>
 			<div class="col-md-6" >
 				<div class="row" style="margin-top:10px;">
@@ -113,22 +108,25 @@
 			</div>
 		</div>
 	</div>
+	<div style="width:100%;line-height:50px;background-color:#4e4e4e;color:white;text-align:center;vertical-align:middle">포트폴리오 목록</div>
 	<!--폿폴시작-->
 	<div style="width:100%;height:650px;background-color:#ffffff;" >
 	<div class="container" style="float:center">
 		<div class="row">
 			<div class="col-md-6" >
-				<div style="margin-top:50px;margin-bottom:auto;background-color:red">
+				<div style="margin-top:50px;margin-bottom:auto;height:550px;">
 					<span class="name" style="display:inline">Peppy&nbsp</span>
 					<span>기간 (2017.10.04 ~ 개발중)</span><br><br>
-					<span class="content">프로젝트 요약 : </span><br>
-					<span class="content">역할 : </span><br>
-					<span>웹으로 이동, 구글플레이스토어</span>				
-					<a href="#" class="btn btn-default" role="button">기획서보기</a>
+					<span class="content">프로젝트 요약</span><br>
+					<span>- 가정에 설치된 크래들과 센서를 사용해 반려동물의 움직임을 측정할 수 있는 목줄이 통신해서 반려동물의 활동량, 상태등을 측정해서 휴대폰과 통신하는 네이티브 어플리케이션입니다.<br>
+							- 스토리보드 작성중, 디자인 작업중(2017.12.01기준)</span><br><br>
+					<span class="content">프로젝트에서 역할</span><br>
+					<span>- 기획PM 스토리보드 작성 / UX기획 / 개발자와 디자이너일정 관리</span><br>
+					<a href="#" class="btn btn-default" role="button" style="position:absolute;bottom:100px;margin-left:270px;horizontal-align:center">스토리보드</a>
 				</div>
 			</div>
 			<div class="col-md-6">
-			<div class="pull-right" style="display:inline;float:right;background-color:red;margin-top:50px;margin-bottom:50px;"><img src="images/main3.png" alt="프로필사진" /></div>
+			<div class="pull-right" style="display:inline;float:right;background-color:red;margin-top:50px;margin-bottom:50px;"><img src="images/peppymobile.png" alt="peppy" /></div>
 			<!--<div style="display:inline" align="right"><img src="images/jekyll-logo2.png" alt="프로필사진" /></div>-->
 			</div>
 		</div>
@@ -137,17 +135,19 @@
 	<div class="container" style="float:center">
 		<div class="row">
 			<div class="col-md-6" >
-				<div style="margin-top:50px">
+				<div style="margin-top:50px;margin-bottom:auto;height:550px;">
 					<span class="name" style="display:inline">팔로업&nbsp</span>
 					<span>기간 (2017.08.24 ~ 개발중)</span><br><br>
-					<span class="content">프로젝트 요약 : </span><br>
-					<span class="content">역할 : </span><br>
-					<span>웹으로 이동, 구글플레이스토어</span>				
-				
+					<span class="content">프로젝트 요약</span><br>
+					<span>- 인스타그램 좋아요/팔로워 늘리기 플랫폼입니다. 가입한 회원들끼리 서로의 게시글과 프로필에 좋아요를 표시하고 포인트를 획득할 수 있습니다. 획득한 포인트로는 나의 게시글을 상위로 올리는(광고)기능을 사용할 수 있습니다. 벤치마킹 사이트는 '라이크미'입니다.<br>
+					- 디자인 완료후 개발시작됨(2017.12.01기준)</span><br><br>
+					<span class="content">프로젝트에서 역할</span><br>
+					<span>- 기획PM 스토리보드 작성 / UX기획 / 개발자와 디자이너일정 관리</span><br>
+					<a href="#" class="btn btn-default" role="button" style="position:absolute;bottom:100px;margin-left:270px;horizontal-align:center">스토리보드</a>
 				</div>
 			</div>
 			<div class="col-md-6">
-			<div class="pull-right" style="display:inline;float:right;background-color:red;margin-top:50px"><img src="images/main3.png" alt="프로필사진" /></div>
+			<div class="pull-right" style="display:inline;float:right;background-color:red;margin-top:50px;margin-bottom:50px;"><img src="images/followupweb.png" alt="followup" /></div>
 			<!--<div style="display:inline" align="right"><img src="images/jekyll-logo2.png" alt="프로필사진" /></div>-->
 			</div>
 		</div>
@@ -156,18 +156,21 @@
 	<div class="container" style="float:center">
 		<div class="row">
 			<div class="col-md-6" >
-				<div style="margin-top:50px">
+				<div style="margin-top:50px;margin-bottom:auto;height:550px;">
 					<span class="name" style="display:inline">콜로지움&nbsp</span>
 					<span>기간 (2017.06.17 ~ 2017.11.11)</span><br><br>
-					<span class="content">프로젝트 요약 : </span><br>
-					<span class="content">역할 : </span><br>
-					<span>웹으로 이동, 구글플레이스토어</span>				
-				
+					<span class="content">프로젝트 요약</span><br>
+					<span>- 하나의 건물이 지어지기 위해서는 토지측량부터 전기공사, 시멘트골조공사등 다양한 분야의 전문가가 함께 일해야합니다. 이러한 각분야의 전문가들이 하나의 공사를 대상으로 정보를 공유하고, 촬영한 사진을 모아서 건축대장을 작성 및 출력할 수 있는 서비스입니다.<br>
+					- 개발완료</span><br><br>
+					<span class="content">프로젝트에서 역할</span><br>
+					<span>- 기획PM 스토리보드 작성 / UX기획 / 개발자와 디자이너일정 관리</span><br>
+					<a href="#" class="btn btn-default" role="button" style="position:absolute;bottom:100px;margin-left:155px;horizontal-align:center">스토리보드</a>
+					<a href="#" class="btn btn-default" role="button" style="position:absolute;bottom:100px;margin-left:255px;horizontal-align:center">웹사이트보기</a>
+					<a href="#" class="btn btn-default" role="button" style="position:absolute;bottom:100px;margin-left:370px;horizontal-align:center"><img src="images/google.png" style="width:20px">Playstore</a>
 				</div>
 			</div>
 			<div class="col-md-6">
-			<div class="pull-right" style="display:inline;float:right;background-color:red;margin-top:50px"><img src="images/main3.png" alt="프로필사진" /></div>
-			<!--<div style="display:inline" align="right"><img src="images/jekyll-logo2.png" alt="프로필사진" /></div>-->
+			<div class="pull-right" style="display:inline;float:right;background-color:red;margin-top:50px;margin-bottom:50px;"><img src="images/calllozeummobile.png" alt="calllozeum" /></div>
 			</div>
 		</div>
 	</div>
@@ -175,18 +178,19 @@
 	<div class="container" style="float:center">
 		<div class="row">
 			<div class="col-md-6" >
-				<div style="margin-top:50px">
+				<div style="margin-top:50px;margin-bottom:auto;height:550px;">
 					<span class="name" style="display:inline">짐승&nbsp</span>
 					<span>기간 (2017.06.17 ~ 개발중)</span><br><br>
-					<span class="content">프로젝트 요약 : </span><br>
-					<span class="content">역할 : </span><br>
-					<span>웹으로 이동, 구글플레이스토어</span>				
-				
+					<span class="content">프로젝트 요약</span><br>
+					<span>- 위치기반서비스를 이용하여 지역별 헬스 트레이너를 찾을 수 있고 트레이너회원은 자신의 트레이너 수업일정을 등록하고 일반이용자의 수강신청을 받을 수 있습니다. 2018년 상반기오픈예정인 서비스입니다. 벤치마킹사이트는 '탈잉'입니다.<br>
+					- 디자인 작업중</span><br><br>
+					<span class="content">프로젝트에서 역할</span><br>
+					<span>- 기획PM 스토리보드 작성 / UX기획 / 개발자와 디자이너일정 관리</span><br>
+					<a href="#" class="btn btn-default" role="button" style="position:absolute;bottom:100px;margin-left:270px;horizontal-align:center">스토리보드</a>
 				</div>
 			</div>
 			<div class="col-md-6">
-			<div class="pull-right" style="display:inline;float:right;background-color:red;margin-top:50px"><img src="images/main3.png" alt="프로필사진" /></div>
-			<!--<div style="display:inline" align="right"><img src="images/jekyll-logo2.png" alt="프로필사진" /></div>-->
+			<div class="pull-right" style="display:inline;float:right;background-color:red;margin-top:50px;margin-bottom:50px;"><img src="images/gymwinweb.png" alt="gymwin" /></div>
 			</div>
 		</div>
 	</div>
@@ -194,18 +198,20 @@
 	<div class="container" style="float:center">
 		<div class="row">
 			<div class="col-md-6" >
-				<div style="margin-top:50px">
+				<div style="margin-top:50px;margin-bottom:auto;height:550px;">
 					<span class="name" style="display:inline">아이뉴턴&nbsp</span>
-					<span>기간 (2017.05.24 ~ 2017.10.13)</span><br><br>
-					<span class="content">프로젝트 요약 : </span><br>
-					<span class="content">역할 : </span><br>
-					<span>웹으로 이동, 구글플레이스토어</span>				
-				
+					<span>기간 (2017.05.17 ~ 2017.10.13)</span><br><br>
+					<span class="content">프로젝트 요약</span><br>
+					<span>- 뉴턴코리아의 과학잡지를 모바일뷰어로 볼 수 있는 어플리케이션입니다. 포인트구매를 통해서 해당 콘텐츠를 열람할 수 있으며 VR뷰어를 추가하여 보다 생동감있는 과학영상을 체험할 수 있습니다.<br>
+					- 개발완료</span><br><br>
+					<span class="content">프로젝트에서 역할</span><br>
+					<span>- 기획PM 스토리보드 작성 / UX기획 / 개발자와 디자이너일정 관리</span><br>
+					<a href="#" class="btn btn-default" role="button" style="position:absolute;bottom:100px;margin-left:200px;horizontal-align:center">스토리보드</a>
+					<a href="#" class="btn btn-default" role="button" style="position:absolute;bottom:100px;margin-left:300px;horizontal-align:center"><img src="images/google.png" style="width:20px">Playstore</a>
 				</div>
 			</div>
 			<div class="col-md-6">
-			<div class="pull-right" style="display:inline;float:right;background-color:red;margin-top:50px"><img src="images/main3.png" alt="프로필사진" /></div>
-			<!--<div style="display:inline" align="right"><img src="images/jekyll-logo2.png" alt="프로필사진" /></div>-->
+			<div class="pull-right" style="display:inline;float:right;background-color:red;margin-top:50px;margin-bottom:50px;"><img src="images/inewtonweb.png" alt="inewton" /></div>
 			</div>
 		</div>
 	</div>
@@ -213,18 +219,20 @@
 	<div class="container" style="float:center">
 		<div class="row">
 			<div class="col-md-6" >
-				<div style="margin-top:50px">
-					<span class="name" style="display:inline">ShakeKorea&nbsp</span>
+				<div style="margin-top:50px;margin-bottom:auto;height:550px;">
+					<span class="name" style="display:inline">ShakeKorea(惠游韩国)&nbsp</span><br>
 					<span>기간 (2017.05.02 ~ 2017.11.10)</span><br><br>
-					<span class="content">프로젝트 요약 : </span><br>
-					<span class="content">역할 : </span><br>
-					<span>웹으로 이동, 구글플레이스토어</span>				
-				
+					<span class="content">프로젝트 요약</span><br>
+					<span>- Wechat으로 연동되는 기업용 페이지입니다. 한국을 방문하는 중국인 관광객을 대상으로 위치기반으로 지역별 맛집, 쇼핑, 문화재 등을 검색할 수 있으며 기업이 발행하는 쿠폰을 다운로드 받으면 추가 할인 해택도 누릴 수 있는 서비스입니다. Wechat어플을 통해서만 사용 가능하며 현재 일부서비스는 브라우저에서도 접속가능하도록 일부기능 오픈한 상태입니다.<br>
+					- 개발완료</span><br><br>
+					<span class="content">프로젝트에서 역할</span><br>
+					<span>- 기획PM 스토리보드 작성 / UX기획 / 개발자와 디자이너일정 관리</span><br>
+					<a href="#" class="btn btn-default" role="button" style="position:absolute;bottom:100px;margin-left:150px;horizontal-align:center">스토리보드</a>
+					<a href="#" style="position:absolute;bottom:10px;margin-left:300px;horizontal-align:center"><img src="images/shakekoreaqr.png" style="width:150px"></a>
 				</div>
 			</div>
 			<div class="col-md-6">
-			<div class="pull-right" style="display:inline;float:right;background-color:red;margin-top:50px"><img src="images/main3.png" alt="프로필사진" /></div>
-			<!--<div style="display:inline" align="right"><img src="images/jekyll-logo2.png" alt="프로필사진" /></div>-->
+			<div class="pull-right" style="display:inline;float:right;background-color:red;margin-top:50px;margin-bottom:50px;"><img src="images/shakekoreamobile.png" alt="shakekorea" /></div>
 			</div>
 		</div>
 	</div>
@@ -232,18 +240,20 @@
 	<div class="container" style="float:center">
 		<div class="row">
 			<div class="col-md-6" >
-				<div style="margin-top:50px">
-					<span class="name" style="display:inline">미젤&nbsp</span>
+				<div style="margin-top:50px;margin-bottom:auto;height:550px;">
+					<span class="name" style="display:inline">미젤&nbsp</span><br>
 					<span>기간 (2017.04.24 ~ 2017.11.08)</span><br><br>
-					<span class="content">프로젝트 요약 : </span><br>
-					<span class="content">역할 : </span><br>
-					<span>웹으로 이동, 구글플레이스토어</span>				
-				
+					<span class="content">프로젝트 요약</span><br>
+					<span>- 지역, 나이, 레벨을 선택해서 마음에드는 이성과 서로 호감을 보내면 매칭이되어 채팅방이 생성되는 실시간매칭 어플리캐이션입니다. 상대방의 사진을 보려면 포인트를 지불해야 하며, 상대방은 포인트를 획득하고 출금신청을 할 수 있습니다.<br>
+					- 개발완료후 내부 알파테스트중</span><br><br>
+					<span class="content">프로젝트에서 역할</span><br>
+					<span>- 기획PM 스토리보드 작성 / UX기획 / 개발자와 디자이너일정 관리</span><br>
+					<a href="#" class="btn btn-default" role="button" style="position:absolute;bottom:100px;margin-left:200px;horizontal-align:center">스토리보드</a>
+					<a href="#" class="btn btn-default" role="button" style="position:absolute;bottom:100px;margin-left:300px;horizontal-align:center">사이트보기</a>
 				</div>
 			</div>
 			<div class="col-md-6">
-			<div class="pull-right" style="display:inline;float:right;background-color:red;margin-top:50px"><img src="images/main3.png" alt="프로필사진" /></div>
-			<!--<div style="display:inline" align="right"><img src="images/jekyll-logo2.png" alt="프로필사진" /></div>-->
+			<div class="pull-right" style="display:inline;float:right;background-color:red;margin-top:50px;margin-bottom:50px;"><img src="images/megelmobile.png" alt="megel" /></div>
 			</div>
 		</div>
 	</div>
@@ -251,18 +261,20 @@
 	<div class="container" style="float:center">
 		<div class="row">
 			<div class="col-md-6" >
-				<div style="margin-top:50px">
-					<span class="name" style="display:inline">정비맨&nbsp</span>
+				<div style="margin-top:50px;margin-bottom:auto;height:550px;">
+					<span class="name" style="display:inline">정비맨&nbsp</span><br>
 					<span>기간 (2017.03.16 ~ 2017.11.26)</span><br><br>
-					<span class="content">프로젝트 요약 : </span><br>
-					<span class="content">역할 : </span><br>
-					<span>웹으로 이동, 구글플레이스토어</span>				
-				
+					<span class="content">프로젝트 요약</span><br>
+					<span>- 역경매를 통해서 자동차 정비를 받을 수 있고, 출장서비스를 이용하여 언제 어디서든 기사를 호출해서 차량을 수리하고 긴급점검을 받을 수 있는 서비스입니다. 웹사이트는 구축완료 되었고 어플리캐이션은 알파테스트중입니다.<br>
+					- 개발완료</span><br><br>
+					<span class="content">프로젝트에서 역할</span><br>
+					<span>- 기획PM 스토리보드 작성 / UX기획 / 개발자와 디자이너일정 관리</span><br>
+					<a href="#" class="btn btn-default" role="button" style="position:absolute;bottom:100px;margin-left:200px;horizontal-align:center">스토리보드</a>
+					<a href="#" class="btn btn-default" role="button" style="position:absolute;bottom:100px;margin-left:300px;horizontal-align:center">사이트보기</a>
 				</div>
 			</div>
 			<div class="col-md-6">
-			<div class="pull-right" style="display:inline;float:right;background-color:red;margin-top:50px"><img src="images/main3.png" alt="프로필사진" /></div>
-			<!--<div style="display:inline" align="right"><img src="images/jekyll-logo2.png" alt="프로필사진" /></div>-->
+			<div class="pull-right" style="display:inline;float:right;background-color:red;margin-top:50px;margin-bottom:50px;"><img src="images/jungbemanmobile.png" alt="jungbeman" /></div>
 			</div>
 		</div>
 	</div>
@@ -274,18 +286,17 @@
 <div style="width:100%;height:250px;background-color:#f5f1f1;" >
 <div class="container" style="float:center">
 <div class="row" style="margin-top:10%">
-	<div class="col-md-3" style="border-left:2px solid lightgray;margin-top:6px">
+	<div class="col-md-4" style="border-left:2px solid lightgray;margin-top:6px">
 	강민종 (개발을 이해한 기획자)
 	</div>
-	<div class="col-md-3" style="border-left:2px solid lightgray;">
+	<div class="col-md-4" style="border-left:2px solid lightgray;">
 	보유기술 : PPT, 포토샵, JAVA, ORACLE, HTML, CSS, Jsp, Office
 	</div>
-	<div class="col-md-3" style="border-left:2px solid lightgray;">
+	<div class="col-md-4" style="border-left:2px solid lightgray;">
 	주소 : 서울시 구로구 구로동<br>
 	이메일 : kangminjong1@gmail.com
-	</div>
-	<div class="col-md-3" style="border-left:2px solid lightgray;">
-	</div>
+	</div><br><br><br><br><p><p>
+	<div class="" style="color:#f78489;text-align:center">COPYRIGHT ⓒ 2017 강민종 ALL RIGHTS RESERVED.</div>
 </div>
 </div>
 </div>
