@@ -15,7 +15,7 @@
  </head>
  <body>
 	<div class="container">
-		<div><img src="../images/main.png"></div>
+		<div style="width:100%"><img src="../images/main.png"></div>
 	</div>
  </body>
 </html>
