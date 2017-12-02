@@ -93,7 +93,7 @@
 		<div class="row">
 			<span style="position:absolute;width:900px;height:450px;top:200px;margin-left:90px;z-index:90;background:transparent">
 				<div class="banner-name">Portfolio of "강민종의 획기적기획"</div>
-				<div class="banner-text" ><br>이 페이지는 기획자 강민종의 획기적인 기획을 수집한 공간입니다.<br>오늘까지의 포트폴리오를 소개합니다.</div>
+				<div class="banner-text" ><br>체인파트너스 담당자님 안녕하세요<br>이 페이지는 기획자 강민종의 획기적인 기획을 수집한 공간입니다.<br>오늘까지의 포트폴리오를 소개합니다.</div>
 			</span>
 			<div class="col-md-6" >
 				<div class="row" style="margin-top:10px;">
@@ -122,7 +122,7 @@
 							- 스토리보드 작성중, 디자인 작업중(2017.12.01기준)</span><br><br>
 					<span class="content">프로젝트에서 역할</span><br>
 					<span>- 기획PM 스토리보드 작성 / UX기획 / 개발자와 디자이너일정 관리</span><br>
-					<a href="_inc/peppy.html" class="btn btn-default" role="button" style="position:absolute;bottom:100px;margin-left:270px;horizontal-align:center">스토리보드</a>
+					<a href="peppy.html" class="btn btn-default" role="button" style="position:absolute;bottom:100px;margin-left:270px;horizontal-align:center">스토리보드</a>
 				</div>
 			</div>
 			<div class="col-md-6">
