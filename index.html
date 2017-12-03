@@ -37,15 +37,31 @@
 .copyright {color:blue;font-weight:bold;}
 
 
-.btn-floating-container {
+.btn-floating-container-md {
     right: 50px;
     top: 50px;
     position: fixed;
  }
 
- .btn-floating {
+ .btn-floating-md {
     width: 50px;
     height: 50px;
+    border-radius: 50%;
+    box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.2);
+    border: 1px solid rgba(245, 245, 245, 0.075);
+    text-align: center;
+    padding: 0px;
+    font-size: 24px;
+}
+.btn-floating-container-xs {
+    right: 10px;
+    top: 10px;
+    position: fixed;
+ }
+
+ .btn-floating-xs {
+    width: 10px;
+    height: 10px;
     border-radius: 50%;
     box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.2);
     border: 1px solid rgba(245, 245, 245, 0.075);
@@ -67,7 +83,7 @@
 	font-size:15px;
 }
 .banner-name{
-	font-size:45px;
+	font-size:3em;
 	color:#3d3d3d;
 	font-family:'Nanum Gothic';
 }
@@ -88,33 +104,38 @@
 
 <body>
 <content>
-	<div style="width:100%;height:650px;background-color:#f5f8f9;" >
-	<div class="container" style="float:center">
-		<div class="row">
-			<span style="position:absolute;width:900px;height:450px;top:200px;margin-left:90px;z-index:90;background:transparent">
-				<div class="banner-name">Portfolio of "강민종의 획기적기획"</div>
-				<div class="banner-text" ><br>체인파트너스 담당자님 안녕하세요<br>이 페이지는 기획자 강민종의 획기적인 기획을 수집한 공간입니다.<br>오늘까지의 포트폴리오를 소개합니다.</div>
-			</span>
-			<div class="col-md-6" >
-				<div class="row" style="margin-top:10px;">
-				<!--<div class="col-md-3" style="margin-left:10px;"><a href="#" style="color:#7d87a2;font-weight:bold;">제1메뉴</a></div>
-				<div class="col-md-3" style="margin-left:10px;"><a href="#" style="color:#7d87a2;font-weight:bold;">제2메뉴</a></div>
-				<div class="col-md-3" style="margin-left:10px;"><a href="#" style="color:#7d87a2;font-weight:bold;">제3메뉴</a></div>-->
+	<div class="hidden-xs" style="width:100%;height:650px;background-color:#f5f8f9;" >
+		<div class="container" style="float:center">
+			<div class="row">
+				<span style="position:absolute;width:900px;height:450px;top:200px;margin-left:90px;z-index:90;background:transparent">
+					<div class="banner-name">Portfolio of "강민종의 획기적기획"</div>
+					<div class="banner-text" ><br>체인파트너스 담당자님 안녕하세요<br>이 페이지는 기획자 강민종의 획기적인 기획을 수집한 공간입니다.<br>오늘까지의 포트폴리오를 소개합니다.</div>
+				</span>
+				<div class="col-md-6" >
+					<div class="row" style="margin-top:10px;">
+					<!--<div class="col-md-3" style="margin-left:10px;"><a href="#" style="color:#7d87a2;font-weight:bold;">제1메뉴</a></div>
+					<div class="col-md-3" style="margin-left:10px;"><a href="#" style="color:#7d87a2;font-weight:bold;">제2메뉴</a></div>
+					<div class="col-md-3" style="margin-left:10px;"><a href="#" style="color:#7d87a2;font-weight:bold;">제3메뉴</a></div>-->
+					</div>
 				</div>
-			</div>
-			<div class="col-md-6">
-			<div class="pull-right" style="display:inline;float:right;"><img src="images/main1.png" alt="프로필사진" /></div>
-			<!--<div style="display:inline" align="right"><img src="images/jekyll-logo2.png" alt="프로필사진" /></div>-->
+				<div class="col-md-6">
+				<div class="pull-right" style="display:inline;float:right;"><img src="images/main1.png" alt="프로필사진" /></div>
+				<!--<div style="display:inline" align="right"><img src="images/jekyll-logo2.png" alt="프로필사진" /></div>-->
+				</div>
 			</div>
 		</div>
 	</div>
-	<div style="width:100%;line-height:80px;background-color:#4e4e4e;color:white;text-align:center;vertical-align:middle">포트폴리오 목록</div>
+	<div class="hidden-sm hidden-md hidden-lg" style="width:100%;height:133px;background-color:skyblue;padding:4px">
+		<div style="font-size:16px;font-weight:bold">Portfolio of "강민종의 획기적기획"</div>
+		<div><br>체인파트너스 담당자님 안녕하세요<br>이 페이지는 기획자 강민종의 획기적인 기획을 수집한 공간입니다.<br>오늘까지의 포트폴리오를 소개합니다.</div>
+	</div>
+		<div style="width:100%;line-height:80px;background-color:#4e4e4e;color:white;text-align:center;vertical-align:middle">포트폴리오 목록</div>
 	<!--폿폴시작-->
-	<div style="width:100%;height:650px;background-color:#ffffff;" >
+<div style="width:100%;background-color:#ffffff;" >
 	<div class="container" style="float:center">
 		<div class="row">
-			<div class="col-md-6" >
-				<div style="margin-top:50px;margin-bottom:auto;height:550px;">
+			<div class="col-md-6 col-xs-12" >
+				<div style="margin-top:50px;margin-bottom:auto;">
 					<span class="name" style="display:inline">Peppy&nbsp</span>
 					<span>기간 (2017.10.04 ~ 개발중)</span><br><br>
 					<span class="content">프로젝트 요약</span><br>
@@ -122,20 +143,21 @@
 							- 스토리보드 작성중, 디자인 작업중(2017.12.01기준)</span><br><br>
 					<span class="content">프로젝트에서 역할</span><br>
 					<span>- 기획PM 스토리보드 작성 / UX기획 / 개발자와 디자이너일정 관리</span><br>
-					<a href="peppy.html" class="btn btn-default" role="button" style="position:absolute;bottom:100px;margin-left:270px;horizontal-align:center">스토리보드</a>
+					<a href="peppy.html" class="btn btn-default"align="center" role="button" style="positon:relative;margin-top:30px;text-align:center">스토리보드</a>
 				</div>
 			</div>
-			<div class="col-md-6">
+			<div class="col-md-6 col-xs-12">
 			<div class="pull-right" style="display:inline;float:right;background-color:red;margin-top:50px;margin-bottom:50px;"><img src="images/peppymobile.png" alt="peppy" /></div>
 			<!--<div style="display:inline" align="right"><img src="images/jekyll-logo2.png" alt="프로필사진" /></div>-->
 			</div>
 		</div>
 	</div>
-	<div style="width:100%;height:650px;background-color:#f8f8f8;" >
+</div>
+<div style="width:100%;background-color:#f8f8f8;" >
 	<div class="container" style="float:center">
 		<div class="row">
-			<div class="col-md-6" >
-				<div style="margin-top:50px;margin-bottom:auto;height:550px;">
+			<div class="col-md-6 col-xs-12" >
+				<div style="margin-top:50px;margin-bottom:auto;">
 					<span class="name" style="display:inline">팔로업&nbsp</span>
 					<span>기간 (2017.08.24 ~ 개발중)</span><br><br>
 					<span class="content">프로젝트 요약</span><br>
@@ -143,20 +165,21 @@
 					- 디자인 완료후 개발시작됨(2017.12.01기준)</span><br><br>
 					<span class="content">프로젝트에서 역할</span><br>
 					<span>- 기획PM 스토리보드 작성 / UX기획 / 개발자와 디자이너일정 관리</span><br>
-					<a href="followup.html" class="btn btn-default" role="button" style="position:absolute;bottom:100px;margin-left:270px;horizontal-align:center">스토리보드</a>
+					<a href="followup.html" class="btn btn-default" role="button" style="margin-top:30px;horizontal-align:center">스토리보드</a>
 				</div>
 			</div>
-			<div class="col-md-6">
+			<div class="col-md-6 col-xs-12">
 			<div class="pull-right" style="display:inline;float:right;background-color:red;margin-top:50px;margin-bottom:50px;"><img src="images/followupweb.png" alt="followup" /></div>
 			<!--<div style="display:inline" align="right"><img src="images/jekyll-logo2.png" alt="프로필사진" /></div>-->
 			</div>
 		</div>
 	</div>
-	<div style="width:100%;height:650px;background-color:#ffffff;" >
+</div>
+<div style="width:100%;background-color:#ffffff;" >
 	<div class="container" style="float:center">
 		<div class="row">
-			<div class="col-md-6" >
-				<div style="margin-top:50px;margin-bottom:auto;height:550px;">
+			<div class="col-md-6 col-xs-12" >
+				<div style="margin-top:50px;margin-bottom:auto;">
 					<span class="name" style="display:inline">콜로지움&nbsp</span>
 					<span>기간 (2017.06.17 ~ 2017.11.11)</span><br><br>
 					<span class="content">프로젝트 요약</span><br>
@@ -164,21 +187,22 @@
 					- 개발완료</span><br><br>
 					<span class="content">프로젝트에서 역할</span><br>
 					<span>- 기획PM 스토리보드 작성 / UX기획 / 개발자와 디자이너일정 관리</span><br>
-					<a href="calllozeum.html" class="btn btn-default" role="button" style="position:absolute;bottom:100px;margin-left:155px;horizontal-align:center">스토리보드</a>
-					<a href="http://calllozeum.co.kr/" class="btn btn-default" role="button" style="position:absolute;bottom:100px;margin-left:255px;horizontal-align:center">웹사이트보기</a>
-					<a href="https://play.google.com/store/apps/details?id=calllozeum.lusoft.android" class="btn btn-default" role="button" style="position:absolute;bottom:100px;margin-left:370px;horizontal-align:center"><img src="images/google.png" style="width:20px">Playstore</a>
+					<a href="calllozeum.html" class="btn btn-default" role="button" style="margin-top:30px;horizontal-align:center">스토리보드</a>
+					<a href="http://calllozeum.co.kr/" class="btn btn-default" role="button" style="margin-top:30px;horizontal-align:center">웹사이트보기</a>
+					<a href="https://play.google.com/store/apps/details?id=calllozeum.lusoft.android" class="btn btn-default" role="button" style="margin-top:30px;horizontal-align:center"><img src="images/google.png" style="width:20px">Playstore</a>
 				</div>
 			</div>
-			<div class="col-md-6">
+			<div class="col-md-6 col-xs-12">
 			<div class="pull-right" style="display:inline;float:right;background-color:red;margin-top:50px;margin-bottom:50px;"><img src="images/calllozeummobile.png" alt="calllozeum" /></div>
 			</div>
 		</div>
 	</div>
-	<div style="width:100%;height:650px;background-color:#f8f8f8;" >
+</div>
+<div style="width:100%;background-color:#f8f8f8;" >
 	<div class="container" style="float:center">
 		<div class="row">
-			<div class="col-md-6" >
-				<div style="margin-top:50px;margin-bottom:auto;height:550px;">
+			<div class="col-md-6 col-xs-12" >
+				<div style="margin-top:50px;margin-bottom:auto;">
 					<span class="name" style="display:inline">짐승&nbsp</span>
 					<span>기간 (2017.06.17 ~ 개발중)</span><br><br>
 					<span class="content">프로젝트 요약</span><br>
@@ -186,19 +210,20 @@
 					- 디자인 작업중</span><br><br>
 					<span class="content">프로젝트에서 역할</span><br>
 					<span>- 기획PM 스토리보드 작성 / UX기획 / 개발자와 디자이너일정 관리</span><br>
-					<a href="jymwin.html" class="btn btn-default" role="button" style="position:absolute;bottom:100px;margin-left:270px;horizontal-align:center">스토리보드</a>
+					<a href="jymwin.html" class="btn btn-default" role="button" style="margin-top:30px;horizontal-align:center">스토리보드</a>
 				</div>
 			</div>
-			<div class="col-md-6">
+			<div class="col-md-6 col-xs-12">
 			<div class="pull-right" style="display:inline;float:right;background-color:red;margin-top:50px;margin-bottom:50px;"><img src="images/gymwinweb.png" alt="gymwin" /></div>
 			</div>
 		</div>
 	</div>
-	<div style="width:100%;height:650px;background-color:#ffffff;" >
+</div>
+<div style="width:100%;background-color:#ffffff;" >
 	<div class="container" style="float:center">
 		<div class="row">
-			<div class="col-md-6" >
-				<div style="margin-top:50px;margin-bottom:auto;height:550px;">
+			<div class="col-md-6 col-xs-12" >
+				<div style="margin-top:50px;margin-bottom:auto;">
 					<span class="name" style="display:inline">아이뉴턴&nbsp</span>
 					<span>기간 (2017.05.17 ~ 2017.10.13)</span><br><br>
 					<span class="content">프로젝트 요약</span><br>
@@ -206,20 +231,21 @@
 					- 개발완료</span><br><br>
 					<span class="content">프로젝트에서 역할</span><br>
 					<span>- 기획PM 스토리보드 작성 / UX기획 / 개발자와 디자이너일정 관리</span><br>
-					<a href="inewton.html" class="btn btn-default" role="button" style="position:absolute;bottom:100px;margin-left:200px;horizontal-align:center">스토리보드</a>
-					<a href="https://play.google.com/store/apps/details?id=inewton.lusoft.android" class="btn btn-default" role="button" style="position:absolute;bottom:100px;margin-left:300px;horizontal-align:center"><img src="images/google.png" style="width:20px">Playstore</a>
+					<a href="inewton.html" class="btn btn-default" role="button" style="margin-top:30px;horizontal-align:center">스토리보드</a>
+					<a href="https://play.google.com/store/apps/details?id=inewton.lusoft.android" class="btn btn-default" role="button" style="margin-top:30px;horizontal-align:center"><img src="images/google.png" style="width:20px">Playstore</a>
 				</div>
 			</div>
-			<div class="col-md-6">
+			<div class="col-md-6 col-xs-12">
 			<div class="pull-right" style="display:inline;float:right;background-color:red;margin-top:50px;margin-bottom:50px;"><img src="images/inewtonweb.png" alt="inewton" /></div>
 			</div>
 		</div>
 	</div>
-	<div style="width:100%;height:650px;background-color:#f8f8f8;" >
+</div>
+<div style="width:100%;background-color:#f8f8f8;" >
 	<div class="container" style="float:center">
 		<div class="row">
-			<div class="col-md-6" >
-				<div style="margin-top:50px;margin-bottom:auto;height:550px;">
+			<div class="col-md-6 col-xs-12" >
+				<div style="margin-top:50px;margin-bottom:auto;">
 					<span class="name" style="display:inline">ShakeKorea(惠游韩国)&nbsp</span><br>
 					<span>기간 (2017.05.02 ~ 2017.11.10)</span><br><br>
 					<span class="content">프로젝트 요약</span><br>
@@ -227,20 +253,21 @@
 					- 개발완료</span><br><br>
 					<span class="content">프로젝트에서 역할</span><br>
 					<span>- 기획PM 스토리보드 작성 / UX기획 / 개발자와 디자이너일정 관리</span><br>
-					<a href="shakekorea.html" class="btn btn-default" role="button" style="position:absolute;bottom:100px;margin-left:150px;horizontal-align:center">스토리보드</a>
-					<a href="#" style="position:absolute;bottom:10px;margin-left:300px;horizontal-align:center"><img src="images/shakekoreaqr.png" style="width:150px"></a>
+					<a href="shakekorea.html" class="btn btn-default" role="button" style="margin-top:30px;horizontal-align:center">스토리보드</a>
+					<a href="#" style="horizontal-align:center"><img src="images/shakekoreaqr.png" style="margin-top:30px;width:150px"></a>
 				</div>
 			</div>
-			<div class="col-md-6">
+			<div class="col-md-6 col-xs-12">
 			<div class="pull-right" style="display:inline;float:right;background-color:red;margin-top:50px;margin-bottom:50px;"><img src="images/shakekoreamobile.png" alt="shakekorea" /></div>
 			</div>
 		</div>
 	</div>
-	<div style="width:100%;height:650px;background-color:#ffffff;" >
+</div>
+<div style="width:100%;background-color:#ffffff;" >
 	<div class="container" style="float:center">
 		<div class="row">
-			<div class="col-md-6" >
-				<div style="margin-top:50px;margin-bottom:auto;height:550px;">
+			<div class="col-md-6 col-xs-12" >
+				<div style="margin-top:50px;margin-bottom:auto;">
 					<span class="name" style="display:inline">미젤&nbsp</span><br>
 					<span>기간 (2017.04.24 ~ 2017.11.08)</span><br><br>
 					<span class="content">프로젝트 요약</span><br>
@@ -248,20 +275,21 @@
 					- 개발완료후 내부 알파테스트중</span><br><br>
 					<span class="content">프로젝트에서 역할</span><br>
 					<span>- 기획PM 스토리보드 작성 / UX기획 / 개발자와 디자이너일정 관리</span><br>
-					<a href="megel.html" class="btn btn-default" role="button" style="position:absolute;bottom:100px;margin-left:200px;horizontal-align:center">스토리보드</a>
-					<a href="http://megel.lusoft.co.kr/app_store.php" class="btn btn-default" role="button" style="position:absolute;bottom:100px;margin-left:300px;horizontal-align:center">사이트보기</a>
+					<a href="megel.html" class="btn btn-default" role="button" style="margin-top:30px;horizontal-align:center">스토리보드</a>
+					<a href="http://megel.lusoft.co.kr/app_store.php" class="btn btn-default" role="button" style="margin-top:30px;horizontal-align:center">사이트보기</a>
 				</div>
 			</div>
-			<div class="col-md-6">
+			<div class="col-md-6 col-xs-12">
 			<div class="pull-right" style="display:inline;float:right;background-color:red;margin-top:50px;margin-bottom:50px;"><img src="images/megelmobile.png" alt="megel" /></div>
 			</div>
 		</div>
 	</div>
-	<div style="width:100%;height:650px;background-color:#f8f8f8;" >
+</div>
+<div style="width:100%;background-color:#f8f8f8;" >
 	<div class="container" style="float:center">
 		<div class="row">
-			<div class="col-md-6" >
-				<div style="margin-top:50px;margin-bottom:auto;height:550px;">
+			<div class="col-md-6 col-xs-12" >
+				<div style="margin-top:50px;margin-bottom:auto;">
 					<span class="name" style="display:inline">정비맨&nbsp</span><br>
 					<span>기간 (2017.03.16 ~ 2017.11.26)</span><br><br>
 					<span class="content">프로젝트 요약</span><br>
@@ -269,36 +297,40 @@
 					- 개발완료</span><br><br>
 					<span class="content">프로젝트에서 역할</span><br>
 					<span>- 기획PM 스토리보드 작성 / UX기획 / 개발자와 디자이너일정 관리</span><br>
-					<a href="jungbeman.html" class="btn btn-default" role="button" style="position:absolute;bottom:100px;margin-left:200px;horizontal-align:center">스토리보드</a>
-					<a href="http://jungbeman.lusoft.co.kr/main.php" class="btn btn-default" role="button" style="position:absolute;bottom:100px;margin-left:300px;horizontal-align:center">사이트보기</a>
+					<a href="jungbeman.html" class="btn btn-default" role="button" style="margin-top:30px;horizontal-align:center">스토리보드</a>
+					<a href="http://jungbeman.lusoft.co.kr/main.php" class="btn btn-default" role="button" style="margin-top:30px;horizontal-align:center">사이트보기</a>
 				</div>
 			</div>
-			<div class="col-md-6">
+			<div class="col-md-6 col-xs-12">
 			<div class="pull-right" style="display:inline;float:right;background-color:red;margin-top:50px;margin-bottom:50px;"><img src="images/jungbemanmobile.png" alt="jungbeman" /></div>
 			</div>
 		</div>
 	</div>
+</div>
 	<!--폿폴끝-->
-	<div>
-		<img src="images/introduce.png"/>
+	<div style="width:100%" class="hidden-xs hidden-sm">
+		<img src="images/introduce.png" style="width:100%"/>
+	</div>
+	<div style="width:100%" class="hidden-md hidden-lg">
+		<img src="images/introduce2.png" style="width:100%"/>
 	</div>
 
-<div style="width:100%;height:250px;background-color:#f5f1f1;" >
-<div class="container" style="float:center">
-<div class="row" style="margin-top:10%">
-	<div class="col-md-4" style="border-left:2px solid lightgray;margin-top:6px">
-	강민종 (개발을 이해한 기획자)
+<div style="background-color:#f5f1f1;" >
+	<div class="container" >
+		<div class="row" style="margin-top:10%">
+			<div class="col-md-4" style="border-left:2px solid lightgray;margin-top:6px">
+			강민종 (개발을 이해한 기획자)
+			</div>
+			<div class="col-md-4" style="border-left:2px solid lightgray;">
+			보유기술 : PPT, 포토샵, JAVA, ORACLE, HTML, CSS, Jsp, Office
+			</div>
+			<div class="col-md-4" style="border-left:2px solid lightgray;">
+			주소 : 서울시 구로구 구로동<br>
+			이메일 : kangminjong1@gmail.com
+			</div><br><br><br><br><p><p>
+			<div class="" style="color:#f78489;text-align:center">COPYRIGHT ⓒ 2017 강민종 ALL RIGHTS RESERVED.</div>
+		</div>
 	</div>
-	<div class="col-md-4" style="border-left:2px solid lightgray;">
-	보유기술 : PPT, 포토샵, JAVA, ORACLE, HTML, CSS, Jsp, Office
-	</div>
-	<div class="col-md-4" style="border-left:2px solid lightgray;">
-	주소 : 서울시 구로구 구로동<br>
-	이메일 : kangminjong1@gmail.com
-	</div><br><br><br><br><p><p>
-	<div class="" style="color:#f78489;text-align:center">COPYRIGHT ⓒ 2017 강민종 ALL RIGHTS RESERVED.</div>
-</div>
-</div>
 </div>
 
 
@@ -312,7 +344,15 @@
 	
 </contents>
 	<!--floating  button sns-->
-	<div class="btn-floating-container">
+	<div class="btn-floating-container-md hidden-xs hidden-sm ">
+        <a href="https://www.facebook.com/pushbell" class="btn-floating" style="display:inline-flex;align-items:center;justify-content:center;line-height:1;z-index:100;"><img src="images/face.png"/>
+        </a>
+		<a href="https://www.instagram.com/valuide/" class="btn-floating" style="display:inline-flex;align-items:center;justify-content:center;line-height:1;z-index:91;"><img src="images/insta.png"/>
+        </a>
+		
+        
+    </div>
+	<div class="btn-floating-container-xs hidden-md hidden-lg">
         <a href="https://www.facebook.com/pushbell" class="btn-floating" style="display:inline-flex;align-items:center;justify-content:center;line-height:1;z-index:100;"><img src="images/face.png"/>
         </a>
 		<a href="https://www.instagram.com/valuide/" class="btn-floating" style="display:inline-flex;align-items:center;justify-content:center;line-height:1;z-index:91;"><img src="images/insta.png"/>
@@ -321,13 +361,5 @@
         
     </div>
 </body>
-
-
-
-
-
-
-
-<div class="posts">
  
 </html>
