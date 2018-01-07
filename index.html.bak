@@ -254,7 +254,7 @@
 					<span class="content">프로젝트에서 역할</span><br>
 					<span>- 기획PM 스토리보드 작성 / UX기획 / 개발자와 디자이너일정 관리</span><br>
 					<a href="shakekorea.html" class="btn btn-default" role="button" style="margin-top:30px;horizontal-align:center">스토리보드</a>
-					<a href="#" style="margin-top:30px;horizontal-align:center"><img src="images/shakekoreaqr.png" style="width:150px"></a>
+					<a href="#" style="horizontal-align:center"><img src="images/shakekoreaqr.png" style="margin-top:30px;width:150px"></a>
 				</div>
 			</div>
 			<div class="col-md-6 col-xs-12">
